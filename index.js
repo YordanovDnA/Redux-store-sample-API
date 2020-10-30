@@ -179,7 +179,6 @@ app.patch("/api/users/:id/:patch", (req, res) => {
   const { id, patch } = req.params;
   const { email, password } = req.body;
   const index = users.findIndex((user) => user.id === req.params.id);
-  console.log(req.params);
   if (index > -1) {
     if (patch === "email") {
       users[index].email = email;
@@ -489,7 +488,6 @@ app.patch("/api/customers/:id/:patch", (req, res) => {
   const { id, patch } = req.params;
   const { email, password } = req.body;
   const index = customers.findIndex((customer) => customer.id === req.params.id);
-  console.log(req.params);
   if (index > -1) {
     if (patch === "email") {
       customers[index].email = email;

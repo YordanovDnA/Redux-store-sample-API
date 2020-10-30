@@ -1,7 +1,7 @@
 {
-  "name": "bugs-backend",
+  "name": "redux-stroe-sample-api",
   "version": "1.0.0",
-  "description": "A simple backend for office system.",
+  "description": "A simple API in connection with redux-store-sample",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
